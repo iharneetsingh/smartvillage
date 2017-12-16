@@ -1,0 +1,84 @@
+.shdw5 {
+  -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
+
+.shdw4 {
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
+
+.shdw3 {
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+
+.shdw2 {
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
+
+.shdw1 {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  width: 100%;
+  height: 70px;
+  position: fixed; }
+
+#content {
+  width: 100%;
+  height: 680px;
+  background: #4db6ac; }
+
+.heading {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 100; }
+
+.villages {
+  width: 70%;
+  margin: 0 15%;
+  height: 500px; }
+  .villages .card {
+    width: 30%;
+    float: left;
+    margin: 10px 1.66667%;
+    height: 230px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/gharuan.jpeg"); }
+  .villages .filter {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: ease-in all 200ms; }
+    .villages .filter:hover {
+      transition: ease-in all 200ms;
+      background-color: rgba(0, 0, 0, 0.5); }
+  .villages .cardCt {
+    width: 100%;
+    padding-top: 190px;
+    text-align: center;
+    color: #fff;
+    transition: ease-in all 200ms;
+    font-weight: 400; }
+    .villages .cardCt:hover {
+      padding-top: 5px;
+      transition: ease-in all 200ms; }
+    .villages .cardCt h2 {
+      font-size: 30px; }
+    .villages .cardCt p {
+      font-size: 18px;
+      padding: 0 20px;
+      text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
