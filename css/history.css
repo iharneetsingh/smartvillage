@@ -95,6 +95,12 @@ header {
   .list:hover {
     background: #eee; }
 
+.tab {
+  display: none; }
+
+#history {
+  display: block; }
+
 #ct {
   width: 56%;
   float: left;
