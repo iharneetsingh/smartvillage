@@ -82,7 +82,8 @@ body {
     .villages .cardCt p {
       font-size: 18px;
       padding: 0 20px;
-      text-align: justify; }
+      text-align: justify;
+      -webkit-user-select: none; }
 
 @media only screen and (max-width: 800px) and (min-width: 641px) {
   .villages {

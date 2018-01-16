@@ -35,17 +35,47 @@ header {
   header .logo {
     color: #fff;
     font-size: 30px;
+    float: left;
     margin: 20px 0 0 15px;
     font-weight: 400; }
 
 #sideNav {
   width: 20%;
   float: left;
-  z-index: 1;
+  z-index: 3;
   height: 100%;
   background: #fff;
   position: fixed;
   padding-top: 70px; }
+
+#filter {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 70px;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); }
+  #filter.open {
+    display: block;
+    opacity: 1;
+    transition: 200ms all;
+    -webkit-transition: 200ms all;
+    -moz-transition: 200ms all; }
+
+.menuBtn {
+  float: left;
+  margin: 30px 10px;
+  display: none;
+  cursor: pointer; }
+  .menuBtn .line {
+    border-radius: 10px;
+    width: 25px;
+    margin-bottom: 3px;
+    height: 3px;
+    background: #fff; }
 
 .list {
   width: 100%;
@@ -75,8 +105,7 @@ header {
   top: 90px;
   left: 20%;
   margin: 0 2%;
-  background: #fff;
-  height: 1000px; }
+  background: #fff; }
   #ct .img {
     width: 100%;
     height: 250px;
@@ -124,5 +153,35 @@ header {
     color: #888;
     padding: 10px;
     box-sizing: border-box; }
+
+@media only screen and (max-width: 768px) {
+  #rightNav {
+    display: none; }
+
+  #ct {
+    width: 66%;
+    left: 30%; }
+
+  #sideNav {
+    width: 30%; } }
+@media only screen and (max-width: 400px) {
+  #sideNav {
+    width: 70%;
+    left: -70%;
+    transition: 200ms ease-in all;
+    -webkit-transition: 200ms ease-in all;
+    -moz-transition: 200ms ease-in all; }
+    #sideNav.open {
+      left: 0;
+      transition: 200ms ease-in all;
+      -webkit-transition: 200ms ease-in all;
+      -moz-transition: 200ms ease-in all; }
+
+  .menuBtn {
+    display: block; }
+
+  #ct {
+    width: 96%;
+    left: 0; } }
 
 /*# sourceMappingURL=history.css.map */
