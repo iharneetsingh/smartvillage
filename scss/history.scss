@@ -30,6 +30,10 @@ header{
   background: #fff;
   position: fixed;
   padding-top: 70px;
+  overflow-y: auto;
+  .scroll{
+    height: 130%;
+  }
 }
 #filter{
   display: none;
