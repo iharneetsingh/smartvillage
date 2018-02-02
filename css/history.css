@@ -49,7 +49,7 @@ header {
   padding-top: 70px;
   overflow-y: auto; }
   #sideNav .scroll {
-    height: 130%; }
+    height: 100%; }
 
 #filter {
   display: none;
@@ -94,6 +94,8 @@ header {
     padding: 15px 0; }
   .list:hover {
     background: #eee; }
+  .list.active {
+    background: #eee; }
 
 .tab {
   display: none; }
@@ -107,8 +109,7 @@ header {
   position: relative;
   top: 90px;
   left: 20%;
-  margin: 0 2%;
-  background: #fff; }
+  margin: 0 2%; }
   #ct .img {
     width: 100%;
     height: 250px;
@@ -157,6 +158,33 @@ header {
     padding: 10px;
     box-sizing: border-box; }
 
+#chngImg {
+  position: relative;
+  left: 20px;
+  bottom: -80px;
+  float: left;
+  cursor: pointer; }
+
+#chngHistory {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  cursor: pointer; }
+
+.search input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 5px 10px; }
+
+.listItem {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d5d5d5;
+  margin: 10px 0;
+  height: 200px;
+  background: #fff; }
+
 @media only screen and (max-width: 768px) {
   #rightNav {
     display: none; }
@@ -179,6 +207,8 @@ header {
       transition: 200ms ease-in all;
       -webkit-transition: 200ms ease-in all;
       -moz-transition: 200ms ease-in all; }
+    #sideNav .scroll {
+      height: 130%; }
 
   #filter.open {
     display: block;
