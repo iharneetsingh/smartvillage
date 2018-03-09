@@ -56,8 +56,25 @@ body {
     height: 230px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/gharuan.jpeg"); }
+    background-size: cover;}
+    #gharuan{
+      background-image: url('../images/gharuan.jpeg');
+    }
+    #mamupur{
+      background-image: url('../images/mamupur.jpg');
+    }
+    #rurkee{
+      background-image: url('../images/rurkee.jpg');
+    }
+    #simbal{
+      background-image: url('../images/simbal.jpg');
+    }
+    #batta{
+      background-image: url('../images/batta.jpg');
+    }
+    #mankheri{
+      background-image: url('../images/mankheri.jpg');
+    }
   .villages .filter {
     width: 100%;
     height: 100%;
